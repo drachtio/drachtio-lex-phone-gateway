@@ -1,0 +1,22 @@
+{
+  "name": "google-tts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "jslint": "eslint app.js lib"
+  },
+  "author": "Dave Horton",
+  "license": "MIT",
+  "dependencies": {
+    "@jambonz/realtimedb-helpers": "^0.2.21",
+    "drachtio-fsmrf": "^2.0.2",
+    "drachtio-srf": "^4.4.45",
+    "pino": "^5.13.5"
+  },
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "eslint-plugin-promise": "^4.2.1"
+  }
+}
