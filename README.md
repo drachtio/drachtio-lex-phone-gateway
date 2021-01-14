@@ -40,4 +40,4 @@ Then run the program, setting the below environment variables as needed:
 |TTS_LANGUAGE|None - optional| If provided, language to use for text-to-speech|
 |TTS_VOICE|None - optional|If provided, voice to use for text-to-speech|
 
-Audio prompts can be played using the audio provided by lex, or by using text-to-speech of the returned text prompts.  Either AWS/Polly or Google can be used for TTS.  When 
+Audio prompts can be played using the audio provided by lex, or by using text-to-speech of the returned text prompts.  Either AWS/Polly or Google can be used for TTS.  When using TTS credentials must be supplied via the relevant environment variables above.  Redis is used to cache the returned audio to minimize the requests to the TTS service.
