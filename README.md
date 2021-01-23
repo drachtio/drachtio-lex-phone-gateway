@@ -34,6 +34,7 @@ Then run the program, setting the below environment variables as needed:
 |LEX_PLATFORM|None - optional.|platform identifier to send with metadata|
 |LEX_START_TIMEOUT_MS|None - optional.|start timeout threshold for any intent and slot|
 |LEX_WELCOME_INTENT|None - optional.|Initial intent|
+|LEX_WELCOME_MESSAGE|None - optional|Text to speak to caller on initial connect|
 |REDIS_HOST|'127.0.0.1'|redis server IP|
 |REDIS_PORT|6379|redis server tcp port|
 |TTS_VENDOR|None - optional|If provided, text-to-speech will be used for prompts instead of returned audio|
