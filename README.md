@@ -1,12 +1,12 @@
 # drachtio-lex-phone-gateway
 
-An open source telephony gateway for AWS lex.
+An open source telephony gateway for AWS lex using the [lexv2 runtime](https://aws.amazon.com/blogs/aws/amazon-lex-enhanced-console-experience/).
 
 ## Prerequisites
 You'll need a server outfitted with the following software:
 
 - [drachtio server](https://drachtio.org),
-- Freeswitch 1.10.1 (see [this ansible role](https://github.com/davehorton/ansible-role-fsmrf)), and
+- Freeswitch 1.10.5 (see [this ansible role](https://github.com/davehorton/ansible-role-fsmrf)), and
 - [aws lex module](https://github.com/davehorton/drachtio-freeswitch-modules/tree/master/modules/mod_aws_lex) for Freeswitch
 - [redis server](https://redis.io)
 
