@@ -10,13 +10,13 @@
   "author": "Dave Horton",
   "license": "MIT",
   "dependencies": {
-    "@jambonz/realtimedb-helpers": "^0.2.21",
+    "@jambonz/realtimedb-helpers": "^0.2.22",
     "drachtio-fsmrf": "^2.0.2",
-    "drachtio-srf": "^4.4.45",
+    "drachtio-srf": "^4.4.46",
     "pino": "^5.13.5"
   },
   "devDependencies": {
-    "eslint": "^7.17.0",
+    "eslint": "^7.18.0",
     "eslint-plugin-promise": "^4.2.1"
   },
   "repository": {

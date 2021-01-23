@@ -41,7 +41,10 @@ srf.invite((req, res) => {
     .on('audio', (evt) => logger.info(`received audio file ${evt.path}`))
     .on('playback_interruption', (err) => logger.info(err, 'received playback interruption'))
     .on('dtmf', (dtmf) => logger.info(dtmf, 'received dtmf'))
-    .on('end', (err) => logger.info(err, 'received dialog close'))
+    .on('end', (err) => {
+      logger.info(err, 'received dialog close');
+      callSession.hangup();
+    })
     .on('error', (err) => logger.info(err, 'received error'));
   callSession.exec();
 });
